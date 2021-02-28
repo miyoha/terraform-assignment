@@ -1,15 +1,15 @@
 #Input access key
 variable "aws_access_key" {
-  default = "*****"
+  default = "**********"
 }
 #Input secret key
 variable "aws_secret_key" {
-  default = "*****"
+  default = "*********"
 }
 
 #Custom AMI to be used to launch instance
 variable "ami" {
-  default = "ami-03fe39565a14f2a28"
+  default = "ami-096fda3c22c1c990a"
 }
 
 #set default region
@@ -21,5 +21,4 @@ variable "aws_region" {
 variable "aws_instance_name" {
   default = "Test_EC2"
 }
-
 
